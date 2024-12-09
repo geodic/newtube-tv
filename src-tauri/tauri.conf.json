@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "YouTube",
+  "version": "0.1.0",
+  "identifier": "com.newtube.app",
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "Youtube TV",
+        "userAgent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.77 Large Screen Safari/534.24 GoogleTV/000000",
+        "width": 1920,
+        "height": 1080,
+        "url": "https://youtube.com/tv"
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}
